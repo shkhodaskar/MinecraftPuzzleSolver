@@ -93,7 +93,7 @@ def load_grid(world_state):
         world_state:    <object>    current agent world state
 
     Returns
-        grid:   <list>  the world grid blocks represented as a list of blocks (see Tutorial.pdf)
+        grid:   <list>  the world grid blocks represented as a list of blocks
     """
     while world_state.is_mission_running:
         #sys.stdout.write(".")
@@ -145,7 +145,7 @@ def find_start_end(grid):
     Finds the source and destination block indexes from the list.
 
     Args
-        grid:   <list>  the world grid blocks represented as a list of blocks (see Tutorial.pdf)
+        grid:   <list>  the world grid blocks represented as a list of blocks
 
     Returns
         start: <int>   source block index in the list
